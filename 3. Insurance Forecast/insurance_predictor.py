@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestRegressor
 
 # Load the data
-data = pd.read_csv('D:/C3 Innovations/test projects/python/stramlit apps/Insurance_predictor/insurance.csv')
+data = pd.read_csv('C:\Users\Pavan\Documents\GitHub\Machine_Learning_projects\3. Insurance Forecast\insurance.csv')
 
 # One-hot encoding
 data = pd.get_dummies(data=data, drop_first=True)
